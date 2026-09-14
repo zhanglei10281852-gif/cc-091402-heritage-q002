@@ -1,0 +1,5 @@
+{
+  "timezone": "Asia/Shanghai",
+  "recordIdExample": "artifact-0001",
+  "roles": ["管理员", "保护人员", "只读访客"]
+}

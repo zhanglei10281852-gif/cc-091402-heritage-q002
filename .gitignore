@@ -1,12 +1,12 @@
 .env
+.env.*
+!.env.example
 *.key
 *.pem
 node_modules/
-.venv/
-venv/
 dist/
 build/
 coverage/
-__pycache__/
-*.py[cod]
+.data/
+.runtime/
 .DS_Store
