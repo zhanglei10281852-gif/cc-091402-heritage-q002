@@ -1,5 +1,14 @@
 {
   "timezone": "Asia/Shanghai",
   "recordIdExample": "artifact-0001",
-  "roles": ["管理员", "保护人员", "只读访客"]
+  "roles": ["管理员", "保护人员", "专家", "质控", "只读访客"],
+  "roleHeaderCodes": {
+    "admin": "管理员",
+    "restorer": "保护人员",
+    "expert": "专家",
+    "qc": "质控",
+    "visitor": "只读访客"
+  },
+  "planStatuses": ["draft", "approved", "superseded"],
+  "operationStatuses": ["pending", "in_progress", "frozen", "completed", "accepted", "rejected", "superseded"]
 }
